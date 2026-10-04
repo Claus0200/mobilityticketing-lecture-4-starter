@@ -3,9 +3,13 @@
 -- Validate the product-ID foreign key, then require the ticket reference.
 -- Rehearse legacy-column removal separately after dependency checks.
 
-begin;
-set local lock_timeout = '3s';
+BEGIN;
+SET LOCAL lock_timeout = '3s';
 
--- TODO: migration DDL.
+ALTER TABLE tickets
+  VALIDATE CONSTRAINT tickets_product_id_fk;
 
-commit;
+ALTER TABLE tickets
+  ALTER COLUMN product_id SET NOT NULL;
+
+COMMIT;
