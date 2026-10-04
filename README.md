@@ -4,10 +4,10 @@ Submitted commit:
 Setup and reset instructions: [link](setup.md)
 
 ## Where to find the work
-Lecture 1: model, workload map and queries: [https://github.com/Claus0200/mobilityticketing-lecture-1-starter]
-Lecture 2: constraints and tests: [https://github.com/Claus0200/mobilityticketing-lecture-2-starter]
-Lecture 3: reporting experiment and comparison: [https://github.com/Claus0200/mobilityticketing-lecture-3-starter]
-Lecture 4: migration stages and verification: [https://github.com/Claus0200/mobilityticketing-lecture-4-starter]
+Lecture 1: model, workload map and queries: [link](https://github.com/Claus0200/mobilityticketing-lecture-1-starter)
+Lecture 2: constraints and tests: [link](https://github.com/Claus0200/mobilityticketing-lecture-2-starter)
+Lecture 3: reporting experiment and comparison: [link](https://github.com/Claus0200/mobilityticketing-lecture-3-starter)
+Lecture 4: migration stages and verification: [link](https://github.com/Claus0200/mobilityticketing-lecture-4-starter)
 
 ## Two decisions worth discussing
 
